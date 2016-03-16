@@ -1,0 +1,28 @@
+/**
+ * Cytonn Technologies
+ *
+ * @author: Ronnie Nyaga <rnyaga@cytonn.com>
+ *
+ * Project: sass.app
+ *
+ */
+
+body{
+  background: #EEE;
+}
+h2{
+  color: #AAA;
+}
+.main{
+  margin-top: 100px !important;
+}
+.thumnail p{
+  font-size: 10px;
+  color: #AAA;
+}
+.like:hover{
+  color:red !important;
+}
+.artist:hover{
+  color:blue !important;
+}

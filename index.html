@@ -11,7 +11,28 @@
 
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+      body{
+        background: #EEE;
+      }
+      h3,h2{
+        color: #AAA;
+      }
+      .main{
+        margin-top: 100px !important;
+      }
+      .thumbnail p{
+        font-size: 10px;
+        color: #AAA;
+      }
+      a:hover .like{
+        color:red !important;
+      }
+      a:hover .artist{
+        color:blue !important;
+      }
+    </style>
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -64,6 +85,65 @@
     </div>
     <!-- / Carousel Slider -->
 
-    
+    <div class="clearfix"></div>
+
+    <!-- Container -->
+    <div class="container">
+      <div class="row main">
+          <h2 class="text-center">Photographs &amp; Paintings</h2>
+          <!-- Thumbnail 1 -->
+          <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="img/1.jpeg" alt="Cottage and its beautiful environ.">
+              <div class="caption">
+                <h3>La Cottage</h3>
+                <p>by Leonardo da Vinci</p>
+                <p><a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-user  artist"> </i> Artist's Profile</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-heart like"> </i> Like Portrait</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- /Thumbnail 1 -->
+
+          <!-- Thumbnail 2 -->
+          <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="img/2.jpg" alt="Road in Autumn">
+              <div class="caption">
+                <h3>Rue Autumn</h3>
+                <p>by Leonardo da Vinci</p>
+                <p><a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-user  artist"> </i> Artist's Profile</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-heart like"> </i> Like Portrait</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- /Thumbnail 2 -->
+
+          <!-- Thumbnail 3 -->
+          <div class="col-xs-12 col-sm-4">
+            <div class="thumbnail">
+              <img src="img/3.jpg" alt="Ocean at Sunset">
+              <div class="caption">
+                <h3>La Sunset</h3>
+                <p>by Leonardo da Vinci</p>
+                <p><a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-user  artist"> </i> Artist's Profile</a> <a href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-heart like"> </i> Like Portrait</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- /Thumbnail 3 -->
+      </div>
+
+
+      <!-- Footer -->
+      <footer>
+        <p class="text-center">&copy; 2016 Cytonn Technologies. </p>
+      </footer>
+      <!-- /Footer -->
+
+    </div>
+    <!-- / Container -->
+
+
+
+
+
   </body>
 </html>
